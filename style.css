@@ -1,0 +1,22 @@
+.nav1{
+  height:20px;
+  border-right:2px solid black;
+  border-left:2px solid black;
+  padding:5px;
+  padding-left:15px;
+  padding-right:15px;
+}
+.nav2{
+  height:20px;
+  border-right:2px solid white;
+  border-left:2px solid white;
+  padding:5px;
+  padding-left:15px;
+  padding-right:15px;
+}
+p{
+text-align:center;
+}
+.center{
+  text-align:center;
+}

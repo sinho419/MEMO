@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MEMO</title>
+    <style>
+
+      div{
+        text-align:center;
+        }
+        .black{
+          display:none;
+        }
+      .blacknav {
+        display:none;
+      }
+      #btn_black{
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        margin-right:-4px;
+        background-color:black;
+        color:white;
+      }
+      #btn_white{
+        border-top-right-radius: 5px;
+        border-bottom-right-radius:5px;
+        margin-left:-3px;
+        background-color:white;
+        color:black;
+      }
+      #btn_group button{
+        border: 1px solid gray;
+        padding : 5px;
+        cursor:pointer;
+      }
+      #btn_white:hover{
+        color:white;
+        background-color:black;
+      }
+      #btn_black:hover{
+        color:black;
+        background-color:white;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+    <script>
+    if(!(parent && parent!=this))
+    location.href='wrong.html';
+  </script>
+
+    <header>
+      <p>
+        <div class="white"><a href="index.html"><img  src="title-white.jpg" width="300px"></a></div>
+        <div class="black"><a href="index.html"><img  src="title-black.jpg" width="300px"></a></div>
+      </p>
+    </header>
+
+    <nav>
+    <p class="whitenav">
+      <a href="시작-white.html"><img class="nav1" src="시작-white.jpg"></a>
+      <a href="게임방법-white.html"><img class="nav1" src="게임방법-white.jpg"></a>
+      <a href="제작진-white.html"><img class="nav1" src="제작진-white.jpg"></a>
+      <a href="명예의 전당-white.html"><img class="nav1" src="명예의 전당-white.jpg"></a>
+      <a href="문의-white.html"><img class="nav1" src="문의-white.jpg"></a>
+    </p>
+    <p class="blacknav">
+      <a href="시작-black.html"><img class="nav2" src="시작-black.jpg"></a>
+      <a href="게임방법-black.html"><img class="nav2" src="게임방법-black.jpg"></a>
+      <a href="제작진-black.html"><img class="nav2" src="제작진-black.jpg"></a>
+      <a href="명예의 전당-black.html"><img class="nav2" src="명예의 전당-black.jpg"></a>
+      <a href="문의-black.html"><img class="nav2" src="문의-black.jpg"></a>
+    </p>
+    </nav>
+
+    <p>
+<div id="btn_group">
+  <a href="시작-black.html"><button id="btn_black" >
+  BLACK
+</button></a>
+  <button id="btn_white" >
+  WHITE
+</button>
+
+    </div>
+    </p>
+    <br>
+    <section>
+      <p>
+        <img class="center" src="MEMO.jpg" width="500px" usemap="#start">
+        <map name="start" id='start'>
+        <area shape="rect" coords="230,260,280,290" href="">
+      </p>
+    </section>
+  </body>
+</html>
