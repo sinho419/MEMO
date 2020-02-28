@@ -3,7 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>MEMO</title>
+    <style>
 
+      #answerbox{
+        border: 1px solid black;
+      }
+      #answerbox:hover{
+          border: 1px solid red;
+          transition:0.5s
+      }
+
+    </style>
     <link rel="stylesheet" href="style.css">
   </head>
   <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
@@ -14,10 +24,11 @@
 
     <header>
       <p>
-        <div class="white"><a href="MEMO.html"><img  src="title-white.jpg" width=250px"></a></div>
+        <div class="left"><a href="MEMO.html"><img  src="title-white.jpg" width="100px"></a></div>
       </p>
-        <p>
-        <div><h2>  white-1 문제제목  </h2></div>
+
+      <p>
+        <div><img src="white-1-title.jpg" style="width:400px"></div>
       </p>
     </header>
 
@@ -25,14 +36,17 @@
 
 
     </nav>
-
       <br>
+
+      
     <section>
       <p>
-        white-1 문제내용
-
+        <div><img src="white-1.jpg" style="width:300px"></div>
       </p>
-
+      <br>
+      <p>
+        <div ><input id="answerbox" type="text" name="answer"  style="width:150px; height:20px;   outline:none;"></div>
+      </p>
     </section>
   </body>
 </html>

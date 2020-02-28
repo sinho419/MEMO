@@ -8,8 +8,13 @@
         background:black;
         color:white;
       }
-
-
+      #answerbox{
+        border: 1px solid white;
+      }
+      #answerbox:hover{
+          border: 1px solid red;
+          transition:0.5s
+      }
 
     </style>
     <link rel="stylesheet" href="style.css">
@@ -22,10 +27,11 @@
 
     <header>
       <p>
-        <div class="black"><a href="MEMO-black.html"><img  src="title-black.jpg" width="250px"></a></div>
+        <div class="left"><a href="MEMO-black.html"><img  src="title-black.jpg" width="100px"></a></div>
       </p>
-        <p>
-        <div><h2>black-1 문제제목</h2></div>
+
+      <p>
+        <div><img src="black-1-title.jpg" style="width:400px"></div>
       </p>
     </header>
 
@@ -33,14 +39,17 @@
 
 
     </nav>
-
       <br>
+
+      
     <section>
       <p>
-        black-1 문제내용
-
+        <div><img src="black-1.jpg" style="width:300px"></div>
       </p>
-
+      <br>
+      <p>
+        <div ><input id="answerbox" type="text" name="answer"  style="width:150px; height:20px; color:white; background-color:black; outline:none;"></div>
+      </p>
     </section>
   </body>
 </html>
